@@ -1,0 +1,23 @@
+# OS junk
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build/temp (even if you never use it)
+node_modules/
+dist/
+build/
+*.log
+
+# Never commit secrets (safety net)
+.env
+*.key
+*.pem
+secrets.*
